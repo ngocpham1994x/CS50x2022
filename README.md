@@ -1,8 +1,9 @@
 # :file_folder: CS50x2021
 These are my own work for labs and assginments of CS50x2021 by Harvard College/OpenCourseWare.
+
 In each week, there is a summary of knowledge that is worth to know and practice, as well as some extra videos or links I find helpful along the way to study for CS50.
 
-Happy coding! :robot: 
+Enjoy and Happy coding! :robot: 
 
 ## Timeline: :calendar:
 - Week 0 Scratch
