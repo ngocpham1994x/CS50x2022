@@ -1,7 +1,9 @@
 # :file_folder: CS50x2021
 These are my own work for labs and assginments of CS50x2021 by Harvard College/OpenCourseWare.
 
-In each week, there is a summary of knowledge that is worth to know and practice, as well as some extra videos or links I find helpful along the way to study for CS50.
+In each week, there is a summary of knowledge that is worth to know and practice, as well as some extra shorts, videos or links I find helpful along the way to study for CS50.
+
+Reddit discussion: [/r/CS50](https://www.reddit.com/r/cs50/)
 
 Enjoy and Happy coding! :robot: 
 
@@ -19,8 +21,8 @@ Enjoy and Happy coding! :robot:
   - **Extras**: 
   	- learn how to push your work from CS50 IDE to github [here](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
   	- learn how to use `debug50` in CS50 IDE to step through your code [here](https://www.youtube.com/watch?v=VtkMZjvvKaU), skip to 15:14
-  - Lab: hello.c, population.c
-  - Problem Set 1: mario.c, credit.c, cash.c
+  - Lab: [hello.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/hello/hello.c), [population.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/hello/population.c)
+  - Problem Set 1: [mario.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/mario/mario.c), credit.c, cash.c
 - Week 2 Arrays
 
 - Week 3 Algorithms
