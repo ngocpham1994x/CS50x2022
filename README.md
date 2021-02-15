@@ -3,6 +3,8 @@ These are my own work for labs and assginments of CS50x2021 by Harvard College/O
 
 In each week, there is a summary of knowledge that is worth to know and practice, as well as some extra shorts, videos or links I find helpful along the way to study for CS50.
 
+Course materials: [This is CS50x](https://cs50.harvard.edu/x/2021/)
+
 Reddit discussion: [/r/CS50](https://www.reddit.com/r/cs50/)
 
 Enjoy and Happy coding! :robot: 
