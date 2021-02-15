@@ -2,32 +2,39 @@
 These are my own work for labs and assginments of CS50x2021 by Harvard College/OpenCourseWare.
 
 ## Timeline: :calendar:
-Week 0 Scratch
+- Week 0 Scratch
+  - Find my Scratch game called Blue Balls [here](https://scratch.mit.edu/projects/471758222) :large_blue_circle:
+- Week 1 C
+  - useful commands: cd, cp, ls, mkdir, mv, rm, rmdir, ... 
+  - conditions: if..else
+  - loops: for, do..while, while  
+  - format output %i, %li
+  - limitations (32-bit, 64-bit), truncation
+  - abstraction (waterfall compiling), imprecision of 1/2, overflow, casting var type
+  - **extras**: learn how to push your work from CS50 IDE to github [here](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
+  - lab: hello.c, population.c
+  - assignment: mario
+- Week 2 Arrays
 
-Find my Scratch game called Blue Balls [here](https://scratch.mit.edu/projects/471758222) :large_blue_circle:
+- Week 3 Algorithms
 
-Week 1 C
+- Week 4 Memory
 
-Week 2 Arrays
+- Week 5 Data Structures
 
-Week 3 Algorithms
+- Week 6 Python
 
-Week 4 Memory
+- Week 7 SQL
 
-Week 5 Data Structures
+- Week 8 HTML, CSS, JavaScript
 
-Week 6 Python
+- Week 9 Flask
 
-Week 7 SQL
+- Week 10 Ethics
 
-Week 8 HTML, CSS, JavaScript
+- Extras:
+  - Security
 
-Week 9 Flask
+  - Artificial Intelligence
 
-Week 10 Ethics
-
-Security
-
-Artificial Intelligence
-
-Final Project
+- Final Project
