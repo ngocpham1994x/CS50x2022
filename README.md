@@ -3,11 +3,13 @@ These are my own work for labs and assginments of CS50x2021 by Harvard College/O
 
 In each week, there is a summary of knowledge that is worth to know and practice, as well as some extra shorts, videos or links I find helpful along the way to study for CS50.
 
-Course materials: [This is CS50x](https://cs50.harvard.edu/x/2021/)
+Course materials:
+- [This is CS50x](https://cs50.harvard.edu/x/2021/)
+- [CS50's Manual](https://manual.cs50.io/#stdio.h)
+- [Discord discussion](https://discord.com/invite/cs50)
+- [Reddit discussion](https://www.reddit.com/r/cs50/)
 
-Reddit discussion: [/r/CS50](https://www.reddit.com/r/cs50/)
-
-Enjoy and Happy coding! :robot: 
+Enjoy and Happy coding! :robot:
 
 ## Timeline: :calendar:
 - Week 0 Scratch
@@ -15,13 +17,13 @@ Enjoy and Happy coding! :robot:
   - Second version of Blue Balls [here](https://scratch.mit.edu/projects/471963172)
 - Week 1 C
   - Knowledge sum-up:
-  	- useful commands: `cd`,`cp`, `ls`, `mkdir`, `mv`, `rm`, `rmdir`, ... 
+  	- useful commands: `cd`,`cp`, `ls`, `mkdir`, `mv`, `rm`, `rmdir`, ...
   	- conditions: `if..else`
-  	- loops: `for`, `do..while`, `while`  
+  	- loops: `for`, `do..while`, `while`
   	- format output `%i`, `%li`
   	- limitations (32-bit, 64-bit), truncation
   	- abstraction (waterfall compiling), imprecision of 1/2, overflow, casting var type
-  - **Extras**: 
+  - **Extras**:
   	- learn how to push your work from CS50 IDE to github [here](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
   	- learn how to use `debug50` in CS50 IDE to step through your code [here](https://www.youtube.com/watch?v=VtkMZjvvKaU), skip to 15:14
   - Lab: [hello.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/hello/hello.c), [population.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/hello/population.c)
