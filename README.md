@@ -12,6 +12,7 @@ Enjoy and Happy coding! :robot:
 ## Timeline: :calendar:
 - Week 0 Scratch
   - Find my Scratch game called Blue Balls [here](https://scratch.mit.edu/projects/471758222) :large_blue_circle:
+  - Second version of Blue Balls [here](https://scratch.mit.edu/projects/471963172)
 - Week 1 C
   - Knowledge sum-up:
   	- useful commands: `cd`,`cp`, `ls`, `mkdir`, `mv`, `rm`, `rmdir`, ... 
