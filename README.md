@@ -27,7 +27,7 @@ Enjoy and Happy coding! :robot:
   	- learn how to push your work from CS50 IDE to github [here](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
   	- learn how to use `debug50` in CS50 IDE to step through your code [here](https://www.youtube.com/watch?v=VtkMZjvvKaU), skip to 15:14
   - Lab: [hello.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/hello/hello.c), [population.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/hello/population.c)
-  - Problem Set 1: [mario.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/mario/mario.c), credit.c, cash.c
+  - Problem Set 1: [mario.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/mario/mario.c), credit.c, [cash.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/cash/cash.c)
 - Week 2 Arrays
 
 - Week 3 Algorithms
