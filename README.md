@@ -20,7 +20,7 @@ Enjoy and Happy coding! :robot:
   	- useful commands: `cd`,`cp`, `ls`, `mkdir`, `mv`, `rm`, `rmdir`, ...
   	- conditions: `if..else`
   	- loops: `for`, `do..while`, `while`
-  	- format output `%i`, `%li`
+  	- format output `%i`, `%li`, `%c`
   	- limitations (32-bit, 64-bit), truncation
   	- abstraction (waterfall compiling), imprecision of 1/2, overflow, casting var type
   - **Extras**:
@@ -30,7 +30,7 @@ Enjoy and Happy coding! :robot:
   - Problem Set 1: [mario.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/mario/mario.c), credit.c, [cash.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/cash/cash.c)
 - Week 2 Arrays
   - Knowledge sum-up:
-    -
+  	- useful commands:
 - Week 3 Algorithms
 
 - Week 4 Memory
