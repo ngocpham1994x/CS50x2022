@@ -6,6 +6,7 @@ In each week, there is a summary of knowledge that is worth to know and practice
 Course materials:
 - [This is CS50x](https://cs50.harvard.edu/x/2021/)
 - [CS50's Manual](https://manual.cs50.io/#stdio.h)
+- [CS50's All the docs](https://cs50.readthedocs.io/)
 - [Discord discussion](https://discord.com/invite/cs50)
 - [Reddit discussion](https://www.reddit.com/r/cs50/)
 
