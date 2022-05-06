@@ -1,33 +1,26 @@
+#include <cs50.h>
 #include <stdio.h>
-#include <stdlib.h>
-
-#define MAX_LENGTH 5
-
-char buffer[MAX_LENGTH];
-int height;
 
 //prototype
-void print_pyramid(int height);
+void printpyramid(int height);
 
 int main(void)
 {
+    int height;
     do
     {
-        printf("Height: ");
-        fgets(buffer, sizeof(buffer), stdin);   // get user input
-        height = atoi(buffer);
+        height = get_int("Height: ");
     }
-    while (height <= 0 || height >= 9);          // if outside the bounds, keep asking
-
-    print_pyramid(height);
+    while (0 >= height || height >= 9);
+    printpyramid(height);
 }
 
-void print_pyramid(int the_height)
+void printpyramid(int height)
 {
-    for (int line = 1; line <= the_height; line++)
+    for (int line = 1; line <= height; line++)
     {
         //print left side of the pyramid
-        for (int i = 1; i <= the_height - line; i++)
+        for (int i = 1; i <= height - line; i++)
         {
             printf(" ");
         }
@@ -44,6 +37,13 @@ void print_pyramid(int the_height)
         {
             printf("#");
         }
+
+        //no need for these commented codes
+        // for (int i = 1; i <= height - line; i++)
+        // {
+        //     printf(" ");
+        // }
+
 
         //move to new line
         printf("\n");
