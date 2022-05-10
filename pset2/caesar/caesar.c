@@ -1,88 +1,86 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <cs50.h>
+#include <stdbool.h>
 #include <string.h>
-#include <ctype.h>
 #include <math.h>
 
+#define MAX_LENGTH 1000
+#define ALPHABET_CHARS 26
+
 //prototype
-bool is_valid(string key);
-string caesar_encrypt(string plaintext, int key);
+bool is_valid(char* key);
+char* check_caesar(char* plaintext, int key);
 
 
-int main(int argc, string argv[])
+int main(int argc, char* argv[])
 {
-    if (argc == 2)
+    if (argc < 2 || argc > 2)
     {
-        string key_in_string = argv[1];
-        bool validity = is_valid(key_in_string);
+        fprintf(stderr, "Usage: ./caesar key\n");
+        exit(EXIT_FAILURE);
+    }
+    else if (!is_valid(argv[1]))
+    {
+        fprintf(stderr, "Key is invalid.\n");
+        exit(EXIT_FAILURE);
+    }
 
-        if (validity)
-        {
-            int key_in_int = atoi(key_in_string);
-            string plaintext = get_string("plaintext: ");
-            string ciphertext = caesar_encrypt(plaintext, key_in_int);
-            printf("ciphertext: %s\n", ciphertext);
-        }
-        else
-        {
-            printf("Usage: ./caesar key");
-            return 1;
-        }
-    }
-    else
-    {
-        printf("No argument or more than two arguments!");
-        return 1;
-    }
+    int key = atoi(argv[1]);
+
+    char plaintext[MAX_LENGTH];
+    char* ciphertext;
+
+    printf("plaintext: ");
+    fgets(plaintext, sizeof(plaintext), stdin);
+
+    ciphertext = check_caesar(plaintext, key);
+    printf("ciphertext: %s\n", ciphertext);
+
+    return EXIT_SUCCESS;
 }
 
-bool is_valid(string key)
+bool is_valid(char* key)
 {
-    bool validity = true;
-    for (int i = 0, n = strlen(key); i < n; i++)
+    bool valid = true;
+
+    for (int i = 0; i < strlen(key); i++)
     {
-        if isdigit(key[i]) //(key[i] >= '0' | key[i] <= '9')
+        if (key[i] < '0' || key[i] > '9')
         {
-            continue;
-        }
-        else
-        {
-            validity = false;
-            printf("Usage: ./caesar key");
+            valid = false;
             break;
         }
     }
 
-    return validity;
+    return valid;
 }
 
-string caesar_encrypt(string plaintext, int key)
+char* check_caesar(char* plaintext, int key)
 {
-    string ciphertext = plaintext; //this works, but recommend to use string copy functions
+    //this works, but recommend to use string copy functions
+    char* ciphertext = plaintext;
 
     int shift_key = key % 26;
-    //actual shifting key is the remainder of division, loop around 26 chars x (times) is the same as one (time) and stop at desired char.
-    for (int i = 0, n = strlen(plaintext); i < n; i++)
+
+    //actual shifting key is the remainder of division,
+    // loop around 26 chars x (times) is the same as one (time) and stop at desired char.
+    for (int i = 0; i < strlen(plaintext); i++)
     {
-        if isalpha(plaintext[i])
-            //((plaintext[i] >= 'a' && plaintext[i] <= 'z') | (plaintext[i] >= 'A' && plaintext[i] <= 'Z')) // the char is in either of 2 groups
+        // the char is in either of 2 groups
+        if( (plaintext[i] >= 'a' && plaintext[i] <= 'z') || (plaintext[i] >= 'A' && plaintext[i] <= 'Z') )
         {
             int replacement = plaintext[i] + shift_key;
+
             if (((plaintext[i] >= 'a' && plaintext[i] <= 'z') && (replacement > 'z')) | ((plaintext[i] >= 'A' && plaintext[i] <= 'Z')
                     && (replacement > 'Z')))
-            {
-                ciphertext[i] = (char)(replacement - 26);  // return (aka loop back) if at the end of letter in alphabet: 'z' or 'Z'
-            }
+                // return (aka loop back) if at the end of letter in alphabet: 'z' or 'Z'
+                ciphertext[i] = (char)(replacement - 26);
+
             else
-            {
                 ciphertext[i] = (char)(replacement);
-            }
         }
         else //if char is not an alphabet
-        {
             ciphertext[i] = (char)(plaintext[i]);
-        }
     }
 
     return ciphertext;

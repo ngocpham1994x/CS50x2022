@@ -2,6 +2,7 @@
 // #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 
 #define MAX_LENGTH 100
 char word1[MAX_LENGTH];
@@ -31,10 +32,11 @@ int main(void)
     int score1 = compute_score(&word1[0], strlen(word1));
     int score2 = compute_score(&word2[0], strlen(word2));
 
-    // Print the winner
-    // printf("score1: %d\n", score1);
-    // printf("score2: %d\n", score2);
+    // this also works. Pass string as first-char pointer
+    // int score1 = compute_score(word1, strlen(word1));
+    // int score2 = compute_score(word2, strlen(word2));
 
+    // Print the winner
     if (score1 < score2)
         printf("Player 2 wins!\n");
     else if (score1 > score2)
