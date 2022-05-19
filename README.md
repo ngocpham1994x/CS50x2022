@@ -34,10 +34,17 @@ Enjoy and Happy coding! :robot:
     - [credit.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/credit/credit.c)
     - [cash.c](https://github.com/ngocpham1994x/CS50x2021/blob/main/pset1/cash/cash.c)
 - Week 2 Arrays
-  - Knowledge sum-up:
-  	- useful commands:
+  - Lab: [scrabble.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset2/scrabble/scrabble.c)
+  - Problem Set 2:
+    - [readability.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset2/readability/readability.c)
+    - [caesar.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset2/caesar/caesar.c)
+    - [substitution.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset2/substitution/substitution.c)
 - Week 3 Algorithms
-
+  - Lab: [sort]()
+  - Problem Set 2:
+    - [plurality.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset3/plurality/plurality.c)
+    - [runoff.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset3/runoff/runoff.c)
+    - [tideman.c]() - status: INCOMPLETE
 - Week 4 Memory
 
 - Week 5 Data Structures
