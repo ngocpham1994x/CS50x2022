@@ -44,7 +44,7 @@ Enjoy and Happy coding! :robot:
   - Problem Set 2:
     - [plurality.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset3/plurality/plurality.c)
     - [runoff.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset3/runoff/runoff.c)
-    - [tideman.c]() - status: INCOMPLETE
+    - [tideman.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset3/tideman/tideman.c) - status: INCOMPLETE
 - Week 4 Memory
 
 - Week 5 Data Structures
