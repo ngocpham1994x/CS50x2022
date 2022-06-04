@@ -1,4 +1,32 @@
 # :file_folder: CS50x2022
+
+**ERROR 403 when `git push`**
+
+[Reminder msg on Discord](https://discord.com/channels/393846237255696385/395684800830373888/982680350784385144)
+
+Error message:
+
+```
+remote: Permission to ....... denied to ......
+fatal: unable to access '......git/': The requested URL returned error: 403
+```
+
+Solution:
+
+```
+git remote set-url <name> git@github.com:<username>/<repo>.git
+git push
+```
+
+Example:
+```
+/workspaces/CS50x2022/ $ git remote set-url origin git@github.com:ngocpham1994x/CS50x2022.git
+/workspaces/CS50x2022/ $ git push
+```
+
+# Intro
+
+
 These are my own work for labs and assginments of CS50x2022 by Harvard College/OpenCourseWare.
 
 In each week, there is a summary of knowledge that is worth to know and practice, as well as some extra shorts, videos or links I find helpful along the way to study for CS50.
@@ -14,7 +42,9 @@ Course materials:
 
 Enjoy and Happy coding! :robot:
 
-## Timeline: :calendar:
+# Timeline: :calendar:
+
+
 - Week 0 Scratch
   - Find my Scratch game called Blue Balls [here](https://scratch.mit.edu/projects/471758222) :large_blue_circle:
   - Second version of Blue Balls [here](https://scratch.mit.edu/projects/471963172)
