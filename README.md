@@ -82,11 +82,11 @@ Enjoy and Happy coding! :robot:
     - [recover.c](/pset4/recovery/recover.c)
 - Week 5 Data Structures
   - Lab: [inheritance.c](/pset5/inheritance/inheritance.c)
-  -Problem Set 5:
+  - Problem Set 5:
     - [hello.py](/pset6/speller/speller.c)
 - Week 6 Python
   - Lab: worldcup - [tournament.py](/pset6/world-cup/tournament.py)
-  -Problem Set 6:
+  - Problem Set 6:
     - [hello.py](/pset6/hello.py)
     - [mario.py](/pset6/mario.py)
     - [cash.py](/pset6/cash.py)
@@ -94,7 +94,7 @@ Enjoy and Happy coding! :robot:
     - [dna.py](/pset6/dna/dna.py)
 - Week 7 SQL
   - Lab: [songs](/pset7/songs)
-  -Problem Set 7:
+  - Problem Set 7:
     - [movies](/pset7/movies)
     - [fiftyville](/pset7/fiftyville/log.sql)
 
