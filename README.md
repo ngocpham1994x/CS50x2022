@@ -70,18 +70,33 @@ Enjoy and Happy coding! :robot:
     - [caesar.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset2/caesar/caesar.c)
     - [substitution.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset2/substitution/substitution.c)
 - Week 3 Algorithms
-  - Lab: [sort]()
-  - Problem Set 2:
+  - Lab: [sort](/pset3/sort/answers.txt)
+  - Problem Set 3:
     - [plurality.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset3/plurality/plurality.c)
     - [runoff.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset3/runoff/runoff.c)
     - [tideman.c](https://github.com/ngocpham1994x/CS50x2022/blob/main/pset3/tideman/tideman.c) - status: INCOMPLETE
 - Week 4 Memory
-
+  - Lab: [volume.c](/pset4/volume/volume.c)
+  - Problem Set 4:
+    - [filter.c](/pset4/filter-less/filter.c)
+    - [recover.c](/pset4/recovery/recover.c)
 - Week 5 Data Structures
-
+  - Lab: [inheritance.c](/pset5/inheritance/inheritance.c)
+  -Problem Set 5:
+    - [hello.py](/pset6/speller/speller.c)
 - Week 6 Python
-
+  - Lab: worldcup - [tournament.py](/pset6/world-cup/tournament.py)
+  -Problem Set 6:
+    - [hello.py](/pset6/hello.py)
+    - [mario.py](/pset6/mario.py)
+    - [cash.py](/pset6/cash.py)
+    - [readability.py](/pset6/readability.py)
+    - [dna.py](/pset6/dna/dna.py)
 - Week 7 SQL
+  - Lab: [songs](/pset7/songs)
+  -Problem Set 7:
+    - [movies](/pset7/movies)
+    - [fiftyville](/pset7/fiftyville/log.sql)
 
 - Week 8 HTML, CSS, JavaScript
 
