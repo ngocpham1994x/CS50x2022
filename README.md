@@ -83,7 +83,7 @@ Enjoy and Happy coding! :robot:
 - Week 5 Data Structures
   - Lab: [inheritance.c](/pset5/inheritance/inheritance.c)
   - Problem Set 5:
-    - [hello.py](/pset6/speller/speller.c)
+    - [speller.c](/pset6/speller/speller.c)
 - Week 6 Python
   - Lab: worldcup - [tournament.py](/pset6/world-cup/tournament.py)
   - Problem Set 6:
