@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // SECTION 1: MULTIPLE CHOICE Q
+                let incorrect_buttons = document.querySelectorAll('.incorrect');
+                let correct_buttons = document.querySelectorAll('.correct');
+                let msg = document.querySelector('#msg');
+
+                for (let i = 0; i < incorrect_buttons.length; i++) {
+                // for (let incorrect_button of incorrect_buttons) {
+                    // console.log(incorrect_buttons[i]);
+                    incorrect_buttons[i].addEventListener('click', function(){
+                        incorrect_buttons[i].style.background = 'red';  // background or backgroundColor works
+                        msg.innerHTML = "INCORRECT";
+                    });
+                };
+
+                correct_buttons[0].addEventListener('click', function(){
+                    correct_buttons[0].style.backgroundColor = "green";
+                    msg.innerHTML = "CORRECT";
+                });
+
+                // SECTION 2: FREE ANSWER Q
+                let text = document.querySelector('#text');
+                let submit = document.querySelector('#submit');
+                let msg1 = document.querySelector('#msg1');
+
+                submit.addEventListener('click', function(){
+                    if (text.value == 'emerson')
+                    {
+                        text.style.color = 'green';
+                        msg1.innerHTML = "CORRECT";
+                    }
+                    else
+                    {
+                        text.style.color = 'red';
+                        msg1.innerHTML = "INCORRECT";
+                    }
+                });
+
+            });
+
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>What is the most populated city in Texas?</h3>
+                    <button class="incorrect">Dallas</button>
+                    <button class="incorrect">Fort Worth</button>
+                    <button class="incorrect">Austin</button>
+                    <button class="correct">Houston</button>
+                    <button class="incorrect">San Antonio</button>
+                    <button class="incorrect">El Paso</button>
+                    <button class="incorrect">Galveston</button>
+                    <button class="incorrect">Waco</button>
+                    <p id="msg"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Which automation company is the greatest in Silicon Hill?</h3>
+                    <input id="text" type="text">
+                    <input id="submit" type="submit" value="Check answer">
+                    <p id="msg1"></p>
+            </div>
+        </div>
+    </body>
+</html>
