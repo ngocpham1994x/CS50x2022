@@ -1,8 +1,8 @@
 # :file_folder: CS50x2022
 
-**ERROR 403 when `git push`**
-
-[Reminder msg on Discord](https://discord.com/channels/393846237255696385/395684800830373888/982680350784385144)
+> **ERROR 403 when `git push`**
+>
+> [Reminder msg on Discord](https://discord.com/channels/393846237255696385/395684800830373888/982680350784385144)
 
 Error message:
 
@@ -99,6 +99,9 @@ Enjoy and Happy coding! :robot:
     - [fiftyville](/pset7/fiftyville/log.sql)
 
 - Week 8 HTML, CSS, JavaScript
+  - Lab: [trivia](/pset8/trivia/index.html)
+  - Problem Set 8:
+    - [homepage](/pset8/homepage)
 
 - Week 9 Flask
 
