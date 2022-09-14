@@ -104,8 +104,11 @@ Enjoy and Happy coding! :robot:
     - [homepage](/pset8/homepage)
 
 - Week 9 Flask
+  - Lab: [birthdays](/pset9/birthdays/)
+  - Problem Set 9:
+    - [finance](/pset9/finance)
 
-- Week 10 Ethics
+- Week 10 Emoji
 
 - Extras:
   - Security
