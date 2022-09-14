@@ -109,10 +109,9 @@ Enjoy and Happy coding! :robot:
     - [finance](/pset9/finance)
 
 - Week 10 Emoji
+  - Final Project
 
 - Extras:
   - Security
 
   - Artificial Intelligence
-
-- Final Project
