@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+<h1>{{ user.username}} Account</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Stock symbol</th>
+            <th>Number of shares</th>
+            <th>Current Unit price</th>
+            <th>Total current value</th>
+            <th>Total bought value</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for stock in stocks %}
+            <tr>
+                <td>{{ stock.symbol }}</td>
+                <td>{{ stock.total_shares }}</td>
+                <td>{{ stock.unit_price | usd }}</td>
+                <td>{{ stock.value | usd }}</td>
+                <td>{{ stock.total_price | usd }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+<div class="mb-3">
+    Balance: {{ user.balance | usd }}
+</div>
+<div class="mb-3">
+    Grand total: {{ user.grand_total | usd }}
+</div>
+
+{% endblock %}

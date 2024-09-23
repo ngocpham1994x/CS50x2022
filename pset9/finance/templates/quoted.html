@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <h1>Stock Quote</h1>
+        <ul style="list-style-type: none;">
+            <li><strong>Name:</strong> {{ stock.name }}</li>
+            <li><strong>Price:</strong> {{ stock.price | usd }}</li>
+            <li><strong>Symbol:</strong> {{ stock.symbol }}</li>
+        </ul>
+
+        <a href="/quote">Get Another Quote</a>
+
+{% endblock %}
