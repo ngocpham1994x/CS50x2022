@@ -109,7 +109,7 @@ Enjoy and Happy coding! :robot:
     - [finance](/pset9/finance)
 
 - Week 10 Emoji
-  - Final Project: [Gas Logger](/final-project)
+  - Final Project: [Travel Journal | 2025](https://github.com/ngocpham1994x/TravelJournal)
 
 - Extras:
   - Security
